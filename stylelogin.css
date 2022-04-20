@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+
+}
+body {
+    background-color: #171C29;
+    color: white;
+    font-weight: 500;    
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #8880FE;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+main .social-media {
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+ width: 36px;
+ margin-left: 1rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction:column;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.alternative {
+    margin-top: 0.5rem;
+}
+
+main form input{
+    background-color: #161923;
+    width: 300px;
+    height: 35px;
+    padding: 0 0.5rem;
+    margin-top: 0.5rem;
+    outline: none;
+    color: grey;
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 5px;
+}
+
+main form input[type ="submit"] {
+    cursor:pointer;
+    width: 50%;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 32px;
+    background: #5a51ff;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type ="submit"]:hover {
+    background-color: #3730b3;
+
+}
